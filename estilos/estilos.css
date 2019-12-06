@@ -46,7 +46,7 @@ width: 100%
 /*.....Menu.................................................................*/
 .ingredients{
 	min-height: 800px;
-	background: url("../img/sec2bg.jpg");
+	background: url("../imagenes/sec2bg.jpg");
 	background-position: center;
 	background-size: cover;
 }
@@ -57,7 +57,7 @@ width: 100%
 .inner-ingredients-block{
 	width: 500px;;
 	height: 500px;
-	background: url("../img/sec2textbg.png");
+	background: url("../imagenes/sec2textbg.png");
 	margin-left: 55%;
 	padding: 50px;
 	text-align: center;
@@ -79,7 +79,7 @@ width: 100%
 
 .menu{
 	min-height: 900px;
-	background: url("../img/sec3bg.png");
+	background: url("../imagenes/sec3bg.png");
 	background-position: center;
 	background-size: cover;
 	padding-top: 100px;
@@ -109,7 +109,7 @@ width: 100%
 }
 
 .spec{
-	background-image: url("../img/menuborder.png");
+	background-image: url("../imagenes/menuborder.png");
 	width: 455px;
 	height: 102px;
 	margin: 10px auto;
