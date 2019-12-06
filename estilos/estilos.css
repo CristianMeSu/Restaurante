@@ -90,7 +90,7 @@ width: 100%
 /*.....Menu.................................................................*/
 .ingredients{
 	min-height: 800px;
-	background: url('../imagenes/sec2bg.jpg');
+	background: url("../imagenes/sec2bg.jpg");
 	background-position: center;
 	background-size: cover;
 }
@@ -101,7 +101,7 @@ width: 100%
 .inner-ingredients-block{
 	width: 500px;;
 	height: 500px;
-	background: url('../imagenes/sec2textbg.png');
+	background: url("../imagenes/sec2textbg.png");
 	margin-left: 55%;
 	padding: 50px;
 	text-align: center;
