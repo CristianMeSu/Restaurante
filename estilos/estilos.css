@@ -24,7 +24,7 @@ width: 100%
 .h2{ font-size: 3em;
     color: #cc9900;
     margin-bottom: .4em;
-    padding-top: 50px
+    padding-top: 80px
 }
 
 .alimentos{
@@ -44,82 +44,3 @@ width: 100%
 
 
 /*.....Menu.................................................................*/
-.ingredients{
-	min-height: 800px;
-	background: url("../imagenes/sec2bg.jpg");
-	background-position: center;
-	background-size: cover;
-}
-
-.inner-ingredients{
-	padding: 100px;
-}
-.inner-ingredients-block{
-	width: 500px;;
-	height: 500px;
-	background: url("../imagenes/sec2textbg.png");
-	margin-left: 55%;
-	padding: 50px;
-	text-align: center;
-}
-
-.inner-ingredients-block h2{
-	font-size: 30px;
-	color: #fff;
-	margin-bottom: 30px;
-}
-
-.inner-ingredients-block p{
-	color: #fff;
-	font-size: 18px;
-	width: 80%;
-	margin: 0 auto 70px auto;
-
-}
-
-.menu{
-	min-height: 900px;
-	background: url("../imagenes/sec3bg.png");
-	background-position: center;
-	background-size: cover;
-	padding-top: 100px;
-	padding-bottom: 50px;
-}
-
-.inner-menu{
-	display: flex;
-	flex-wrap: wrap;
-	width: 80%;
-	margin: 0 auto;
-}
-
-.inner-menu > div{
-	flex-basis: 40%;
-	text-align: center;
-	margin: 0 auto;
-}
-
-.inner-menu > div h2{
-	color: #ffc74a;
-	font-size: 40px;
-}
-
-.inner-menu  div span{
-	border-bottom: 1px solid #ffc74a;
-}
-
-.spec{
-	background-image: url("../imagenes/menuborder.png");
-	width: 455px;
-	height: 102px;
-	margin: 10px auto;
-}
-
-.inner-menu i{
-	color: #ffc74a;
-	font-size: 20px;
-}
-
-.menuGroup3{
-	padding-top: 94px;
-}
