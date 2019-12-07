@@ -85,7 +85,7 @@ width: 100%
 }
 .comida{text-align: center; margin-right: 20px;}
 
-.h2{ font-size: 3em;
+.h2{ font-size: 3em; font-family: 'YesevaOne', cursive;
     color: #cc9900;
     margin-bottom: .4em;
     padding-top: 80px
