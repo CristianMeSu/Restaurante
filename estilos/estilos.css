@@ -226,3 +226,18 @@ width: 100%
 	color: #ffc74a;
 	font-size: 25px;
 }
+/*----Footer---*/
+footer {
+    background-color:#000000;
+    color: white;
+}
+/*----Espacios entre cuadros con texto---*/
+.footer1 {
+    display: flex; justify-content: space-evenly;flex-wrap: wrap;text-align: center;}
+ 
+ .h3{font-family: 'Yeseva One', cursive;}
+
+ .h3{display: block;font-size: 23px; margin-block-start: 25px; margin-block-end: 25px; margin-inline-start: 0px; margin-inline-end: 0px;
+  font-weight: bold;}
+/*---- Espacios--*/
+ p {display: block;margin-block-start: 16px;margin-block-end: 16px;margin-inline-start: 0px;margin-inline-end: 0px;
