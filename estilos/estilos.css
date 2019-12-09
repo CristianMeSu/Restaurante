@@ -85,9 +85,9 @@ width: 100%
 }
 .comida{text-align: center; margin-right: 20px;}
 
-.h2{ font-size: 3em; font-family: 'Yeseva One', cursive;
+.h2{ font-size: 48px; font-family: 'Yeseva One', cursive;
     color: #cc9900;
-    margin-bottom: .4em;
+    margin-bottom: 8px;
     padding-top: 80px
 }
 
@@ -237,7 +237,6 @@ footer {
  
  .h3{font-family: 'Yeseva One', cursive;}
 
- .h3{display: block;font-size: 23px; margin-block-start: 25px; margin-block-end: 25px; margin-inline-start: 0px; margin-inline-end: 0px;
-  font-weight: bold;}
+ .h3{display: block;font-size: 23px; margin-block-start: 25px; margin-block-end: 25px; }
 /*---- Espacios--*/
- p {display: block;margin-block-start: 16px;margin-block-end: 16px;margin-inline-start: 0px;margin-inline-end: 0px;
+ p {display: block;margin-block-start: 16px;
