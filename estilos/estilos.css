@@ -240,3 +240,80 @@ footer {
  .h3{display: block;font-size: 23px; margin-block-start: 25px; margin-block-end: 25px; }
 /*---- Espacios--*/
  p {display: block;margin-block-start: 16px;
+	 
+	
+	 
+	 .reservation{
+	min-height: 500px;
+	padding: 100px;
+}
+
+.inner-reservation{
+	display: flex;
+}
+
+.inner-reservation-left{
+	width: 44%;
+
+}
+
+.inner-reservation-left img{
+	margin: 3%;
+}
+
+.inner-reservation-right{
+	text-align: center;
+}
+
+.inner-reservation-right h2{
+	font-size: 40px;
+	color: #ffc74a;
+}
+
+.inner-reservation-right p{
+	width:50%;
+	margin: 0 auto;
+}
+
+form{
+	flex-wrap: wrap;
+	display: flex;
+	width: 60%;
+	margin: 0 auto;
+}
+form > div{
+	flex-basis: 50%;
+}
+
+form input{
+	width: 180px;
+	height: 25px;
+	border-radius: 5px;
+	border: 1px solid black;
+	outline: none;
+	padding: 5px;
+}
+
+.formBookNowButton{
+	margin: 40px auto;
+}
+
+form input[type="submit"]{
+	width:160px;
+	height: 50px;
+	color: #fff;
+	background-color: #ffc74a;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	transition: 0.3s all;
+}
+.form input[type="submit"]:focus{
+	outline:none;
+
+}
+
+#sub:hover{
+	background-color: #9b792d;
+	cursor: pointer;
+}
