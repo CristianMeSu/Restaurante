@@ -138,6 +138,33 @@ width: 100%
 #circulo{
 	margin-top: 40px;
 }
+.int{
+    background-image: url(../imagenes/negro1.png);
+    background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+	height: 680px;
+	width: 100%
+}
+#p9{
+	color:#ffffff; text-align: center; padding-left: 20px;
+	justify-content: center;
+	font-size:36px; 
+
+	font-family: 'Yeseva One', cursive;
+	
+}
+
+#p8{
+	color:#ffffff; 
+	text-align:center;
+	
+}
+#p8 p{
+	margin-bottom: 0px;
+	font-size:16px; 
+	font-family: 'Lato', sans-serif;
+}
 
 
 
