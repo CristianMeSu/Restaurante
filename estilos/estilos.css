@@ -85,9 +85,9 @@ width: 100%
 }
 .comida{text-align: center; margin-right: 20px;}
 
-.h2{ font-size: 48px; font-family: 'Yeseva One', cursive;
+.h2{ font-size: 3em; font-family: 'Yeseva One', cursive;
     color: #cc9900;
-    margin-bottom: 8px;
+    margin-bottom: .4em;
     padding-top: 80px
 }
 
@@ -111,6 +111,14 @@ width: 100%
 	height: 680px;
 	width: 100%
 }
+.pp{
+    background-image: url(../imagenes/NEGRO1.jpg);
+    background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+	height: 680px;
+	width: 100%
+}
 #p1{
 	color:#ffffff; text-align: center; margin-right: 20px;
 	justify-content: center;
@@ -118,14 +126,42 @@ width: 100%
 	font-family: 'Yeseva One', cursive;
 	
 }
+#p9{
+	color:#ffffff; text-align: center; padding-left: 10px;
+	justify-content: center;
+	font-size:36px; 
 
+	font-family: 'Yeseva One', cursive;
+	
+}
+
+#p8{
+	color:#ffffff; 
+	text-align:center;
+	
+}
+#p8 p{
+	margin-top: 0px 0px 1px 0px;
+	font-size:18px; 
+	font-family: 'Lato', sans-serif;
+
+}
+#p10{
+	color:#ffffff; 
+	text-align:center;
+	margin-top: : 0px;
+	font-size:10px; 
+	font-family: 'Lato', sans-serif;
+	
+}
 #p2{
 	color:#ffffff; 
 	text-align:center;
 	
 }
 #p2 p{
-	margin-bottom: 0px;
+	float: left
+	margin-right:10px;
 	font-size:16px; 
 	font-family: 'Lato', sans-serif;
 }
@@ -135,6 +171,14 @@ width: 100%
 	float: right;
 
 }
+#negro{
+	padding-top: 150px;
+	padding-right: 29%;
+	float: right;
+
+
+}
+
 #circulo{
 	margin-top: 40px;
 }
@@ -226,6 +270,25 @@ width: 100%
 	color: #ffc74a;
 	font-size: 25px;
 }
+.hl{
+	font-family: 'Yeseva One', cursive;
+}
+.h9{
+	font-family: 'Yeseva One', cursive;
+	font-size: 20px;
+	color: #ffc74a;
+}
+.leta{
+	font-family: 'Lato', sans-serif;
+}
+.leto{
+	text-align: left;
+	padding-left: 18px;
+	padding-top: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #ffc74a;
+}
 /*----Footer---*/
 footer {
     background-color:#191919;
@@ -234,14 +297,100 @@ footer {
 /*----Espacios entre cuadros con texto---*/
 .footer1 {
     display: flex; justify-content: space-evenly;flex-wrap: wrap;text-align: center;}
-    .footer2 {
-    padding-bottom: 40px;}
- 
+
  .h3{font-family: 'Yeseva One', cursive;}
 
  .h3{display: block;font-size: 23px; margin-block-start: 25px; margin-block-end: 25px; }
 /*---- Espacios--*/
  p {display: block;margin-block-start: 16px;}
- .footer2 img{
-color: #ffffff;
- }
+
+
+
+#reservation{
+	
+	background: url("../imagenes/sec3bg.png");
+	background-position: center;
+	background-size: cover;
+	min-height: 800px;
+}
+
+.reservation{
+	min-height: 500px;
+	padding: 0px;
+}
+
+.inner-reservation{
+	display: flex;
+}
+
+.inner-reservation-left img{
+    margin-left: 0px;
+    float: left;
+    padding-top: 80px;
+    padding-left: 30px;
+}
+
+
+.inner-reservation-right{
+	text-align: center;
+}
+
+.inner-reservation-right h2{
+	font-size: 40px;
+	color: #ffc74a;
+}
+
+.inner-reservation-right p{
+	width: 600px;
+	margin: 0 auto;
+	    margin-bottom: 20px;
+
+}
+
+form{
+	flex-wrap: wrap;
+	display: flex;
+	width: 60%;
+	margin: 0 auto;
+}
+form > div{
+	flex-basis: 50%;
+}
+
+form input{
+	width: 180px;
+	height: 37px;
+	
+	border: 1px solid  black;
+	outline: none;
+	padding: 5px;
+}
+
+form input[type="submit"]{
+	width:160px;
+	height: 50px;
+	color: #fff;
+	background-color: #ffc74a;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	transition: 0.3s all;
+}
+.form input[type="submit"]:focus{
+	outline:none;
+
+}
+
+#sub:hover{
+	background-color: #9b792d;
+	cursor: pointer;
+}
+.hl{
+	color: #ffc74a;
+	font-family: 'Yeseva One', cursive;
+}
+.h9{
+	font-size: 20px;
+	font-family: 'Yeseva One', cursive;
+	color: #ffc74a;
+}
