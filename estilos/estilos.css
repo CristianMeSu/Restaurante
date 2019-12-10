@@ -85,9 +85,9 @@ width: 100%
 }
 .comida{text-align: center; margin-right: 20px;}
 
-.h2{ font-size: 48px; font-family: 'Yeseva One', cursive;
+.h2{ font-size: 3em; font-family: 'Yeseva One', cursive;
     color: #cc9900;
-    margin-bottom: 8px;
+    margin-bottom: .4em;
     padding-top: 80px
 }
 
@@ -111,40 +111,20 @@ width: 100%
 	height: 680px;
 	width: 100%
 }
+.int{
+    background-image: url(../imagenes/negro1.png);
+    background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+	height: 680px;
+	width: 100%
+}
 #p1{
 	color:#ffffff; text-align: center; margin-right: 20px;
 	justify-content: center;
 	font-size:36px; 
 	font-family: 'Yeseva One', cursive;
 	
-}
-
-#p2{
-	color:#ffffff; 
-	text-align:center;
-	
-}
-#p2 p{
-	margin-bottom: 0px;
-	font-size:16px; 
-	font-family: 'Lato', sans-serif;
-}
-#cuadronegro{
-	padding-top: 150px;
-	padding-right: 100px;
-	float: right;
-
-}
-#circulo{
-	margin-top: 40px;
-}
-
-#negro{
-	padding-top: 150px;
-	padding-right: 29%;
-	float: right;
-
-
 }
 #p9{
 	color:#ffffff; text-align: center; padding-left: 10px;
@@ -174,6 +154,36 @@ width: 100%
 	font-family: 'Lato', sans-serif;
 	
 }
+#p2{
+	color:#ffffff; 
+	text-align:center;
+	
+}
+#p2 p{
+	float: left
+	margin-right:10px;
+	font-size:16px; 
+	font-family: 'Lato', sans-serif;
+}
+#cuadronegro{
+	padding-top: 150px;
+	padding-right: 100px;
+	float: right;
+
+}
+#negro{
+	padding-top: 150px;
+	padding-right: 29%;
+	float: right;
+
+
+}
+
+#circulo{
+	margin-top: 40px;
+}
+
+
 
 
 /*.....Menu.................................................................*/
@@ -255,99 +265,4 @@ width: 100%
 
 .menuGroup3{
 	padding-top: 94px;
-}
-.hola{
-	color: #ffc74a;
-	font-size: 25px;
-}
-/*----Footer---*/
-footer {
-    background-color:#191919;
-    color: white;
-}
-/*----Espacios entre cuadros con texto---*/
-.footer1 {
-    display: flex; justify-content: space-evenly;flex-wrap: wrap;text-align: center;}
- 
- .h3{font-family: 'Yeseva One', cursive;}
-
- .h3{display: block;font-size: 23px; margin-block-start: 25px; margin-block-end: 25px; }
-/*---- Espacios--*/
- p {display: block;margin-block-start: 16px;
-	 
-	
-	 
-	 .reservation{
-	min-height: 500px;
-	padding: 100px;
-}
-
-.inner-reservation{
-	display: flex;
-}
-
-.inner-reservation-left{
-	width: 44%;
-
-}
-
-.inner-reservation-left img{
-	margin: 3%;
-}
-
-.inner-reservation-right{
-	text-align: center;
-}
-
-.inner-reservation-right h2{
-	font-size: 40px;
-	color: #ffc74a;
-}
-
-.inner-reservation-right p{
-	width:50%;
-	margin: 0 auto;
-}
-
-form{
-	flex-wrap: wrap;
-	display: flex;
-	width: 60%;
-	margin: 0 auto;
-}
-form > div{
-	flex-basis: 50%;
-}
-
-form input{
-	width: 180px;
-	height: 25px;
-	border-radius: 5px;
-	border: 1px solid black;
-	outline: none;
-	padding: 5px;
-}
-
-.formBookNowButton{
-	margin: 40px auto;
-}
-
-form input[type="submit"]{
-	width:160px;
-	height: 50px;
-	color: #fff;
-	background-color: #ffc74a;
-	border-radius: 5px;
-	border: none;
-	outline: none;
-	transition: 0.3s all;
-}
-.form input[type="submit"]:focus{
-	outline:none;
-
-}
-
-#sub:hover{
-	background-color: #9b792d;
-	cursor: pointer;
 }
