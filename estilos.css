@@ -2,18 +2,6 @@
 	margin: 0px;
 	padding: 0px;
 }
-a{
-	text-decoration: none;
-}
-/*.....Header...............................................................*/
-#header
-{background-image:url(../imagenes/fondohead.jpg);
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-height: 100vh;
-width: 100%
-justify-content: center; text-align: center;
 }
 
 	.inner-nav{	width: 100%;	margin: 0px 0px; }
@@ -85,9 +73,9 @@ width: 100%
 }
 .comida{text-align: center; margin-right: 20px;}
 
-.h2{ font-size: 3em; font-family: 'Yeseva One', cursive;
+.h2{ font-size: 48px; font-family: 'Yeseva One', cursive;
     color: #cc9900;
-    margin-bottom: .4em;
+    margin-bottom: 8px;
     padding-top: 80px
 }
 
@@ -111,14 +99,6 @@ width: 100%
 	height: 680px;
 	width: 100%
 }
-.pp{
-    background-image: url(../imagenes/NEGRO1.jpg);
-    background-repeat: no-repeat;
-	background-attachment: scroll;
-	background-size: cover;
-	height: 680px;
-	width: 100%
-}
 #p1{
 	color:#ffffff; text-align: center; margin-right: 20px;
 	justify-content: center;
@@ -126,42 +106,14 @@ width: 100%
 	font-family: 'Yeseva One', cursive;
 	
 }
-#p9{
-	color:#ffffff; text-align: center; padding-left: 10px;
-	justify-content: center;
-	font-size:36px; 
 
-	font-family: 'Yeseva One', cursive;
-	
-}
-
-#p8{
-	color:#ffffff; 
-	text-align:center;
-	
-}
-#p8 p{
-	margin-top: 0px 0px 1px 0px;
-	font-size:18px; 
-	font-family: 'Lato', sans-serif;
-
-}
-#p10{
-	color:#ffffff; 
-	text-align:center;
-	margin-top: : 0px;
-	font-size:10px; 
-	font-family: 'Lato', sans-serif;
-	
-}
 #p2{
 	color:#ffffff; 
 	text-align:center;
 	
 }
 #p2 p{
-	float: left
-	margin-right:10px;
+	margin-bottom: 0px;
 	font-size:16px; 
 	font-family: 'Lato', sans-serif;
 }
@@ -171,14 +123,6 @@ width: 100%
 	float: right;
 
 }
-#negro{
-	padding-top: 150px;
-	padding-right: 29%;
-	float: right;
-
-
-}
-
 #circulo{
 	margin-top: 40px;
 }
@@ -227,6 +171,7 @@ width: 100%
 	background-size: cover;
 	padding-top: 100px;
 	padding-bottom: 50px;
+	
 }
 
 .inner-menu{
@@ -234,12 +179,14 @@ width: 100%
 	flex-wrap: wrap;
 	width: 80%;
 	margin: 0 auto;
+	
 }
 
 .inner-menu > div{
 	flex-basis: 40%;
 	text-align: center;
 	margin: 0 auto;
+
 }
 
 .inner-menu > div h2{
@@ -249,6 +196,7 @@ width: 100%
 
 .inner-menu  div span{
 	border-bottom: 1px solid #ffc74a;
+
 }
 
 .spec{
@@ -264,8 +212,9 @@ width: 100%
 }
 
 .menuGroup3{
+	
 	padding-top: 94px;
-}
+	}
 .hola{
 	color: #ffc74a;
 	font-size: 25px;
@@ -282,11 +231,8 @@ width: 100%
 	font-family: 'Lato', sans-serif;
 }
 .leto{
-	text-align: left;
-	padding-left: 18px;
-	padding-top: 10px;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
 	color: #ffc74a;
 }
 /*----Footer---*/
@@ -297,38 +243,32 @@ footer {
 /*----Espacios entre cuadros con texto---*/
 .footer1 {
     display: flex; justify-content: space-evenly;flex-wrap: wrap;text-align: center;}
-
+ 
  .h3{font-family: 'Yeseva One', cursive;}
 
  .h3{display: block;font-size: 23px; margin-block-start: 25px; margin-block-end: 25px; }
 /*---- Espacios--*/
  p {display: block;margin-block-start: 16px;}
-
-
-
-#reservation{
+	 
 	
-	background: url("../imagenes/sec3bg.png");
+
+.fondo{
+	min-height: 800px;
+	background: url(../imagenes/sec2bg.jpg);
 	background-position: center;
 	background-size: cover;
-	min-height: 800px;
 }
 
 .reservation{
 	min-height: 500px;
-	padding: 0px;
+	padding: 110px;
 }
 
 .inner-reservation{
 	display: flex;
 }
 
-.inner-reservation-left img{
-    margin-left: 0px;
-    float: left;
-    padding-top: 80px;
-    padding-left: 30px;
-}
+
 
 
 .inner-reservation-right{
@@ -341,9 +281,8 @@ footer {
 }
 
 .inner-reservation-right p{
-	width: 600px;
+	width:40%;
 	margin: 0 auto;
-	    margin-bottom: 20px;
 
 }
 
@@ -359,9 +298,9 @@ form > div{
 
 form input{
 	width: 180px;
-	height: 37px;
-	
-	border: 1px solid  black;
+	height: 25px;
+	border-radius: 5px;
+	border: 1px solid black;
 	outline: none;
 	padding: 5px;
 }
@@ -384,13 +323,4 @@ form input[type="submit"]{
 #sub:hover{
 	background-color: #9b792d;
 	cursor: pointer;
-}
-.hl{
-	color: #ffc74a;
-	font-family: 'Yeseva One', cursive;
-}
-.h9{
-	font-size: 20px;
-	font-family: 'Yeseva One', cursive;
-	color: #ffc74a;
 }
