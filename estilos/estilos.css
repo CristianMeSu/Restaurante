@@ -139,7 +139,41 @@ width: 100%
 	margin-top: 40px;
 }
 
+#negro{
+	padding-top: 150px;
+	padding-right: 29%;
+	float: right;
 
+
+}
+#p9{
+	color:#ffffff; text-align: center; padding-left: 10px;
+	justify-content: center;
+	font-size:36px; 
+
+	font-family: 'Yeseva One', cursive;
+	
+}
+
+#p8{
+	color:#ffffff; 
+	text-align:center;
+	
+}
+#p8 p{
+	margin-top: 0px 0px 1px 0px;
+	font-size:18px; 
+	font-family: 'Lato', sans-serif;
+
+}
+#p10{
+	color:#ffffff; 
+	text-align:center;
+	margin-top: : 0px;
+	font-size:10px; 
+	font-family: 'Lato', sans-serif;
+	
+}
 
 
 /*.....Menu.................................................................*/
