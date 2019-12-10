@@ -264,5 +264,115 @@ width: 100%
 }
 
 .menuGroup3{
+	
 	padding-top: 94px;
+	}
+.hola{
+	color: #ffc74a;
+	font-size: 25px;
+}
+.hl{
+	font-family: 'Yeseva One', cursive;
+}
+.h9{
+	font-family: 'Yeseva One', cursive;
+	font-size: 20px;
+	color: #ffc74a;
+}
+.leta{
+	font-family: 'Lato', sans-serif;
+}
+.leto{
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	color: #ffc74a;
+}
+/*----Footer---*/
+footer {
+    background-color:#191919;
+    color: white;
+}
+/*----Espacios entre cuadros con texto---*/
+.footer1 {
+    display: flex; justify-content: space-evenly;flex-wrap: wrap;text-align: center;}
+ 
+ .h3{font-family: 'Yeseva One', cursive;}
+
+ .h3{display: block;font-size: 23px; margin-block-start: 25px; margin-block-end: 25px; }
+/*---- Espacios--*/
+ p {display: block;margin-block-start: 16px;}
+	 
+	
+
+.fondo{
+	min-height: 800px;
+	background: url(../imagenes/sec2bg.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.reservation{
+	min-height: 500px;
+	padding: 110px;
+}
+
+.inner-reservation{
+	display: flex;
+}
+
+
+
+
+.inner-reservation-right{
+	text-align: center;
+}
+
+.inner-reservation-right h2{
+	font-size: 40px;
+	color: #ffc74a;
+}
+
+.inner-reservation-right p{
+	width:40%;
+	margin: 0 auto;
+
+}
+
+form{
+	flex-wrap: wrap;
+	display: flex;
+	width: 60%;
+	margin: 0 auto;
+}
+form > div{
+	flex-basis: 50%;
+}
+
+form input{
+	width: 180px;
+	height: 25px;
+	border-radius: 5px;
+	border: 1px solid black;
+	outline: none;
+	padding: 5px;
+}
+
+form input[type="submit"]{
+	width:160px;
+	height: 50px;
+	color: #fff;
+	background-color: #ffc74a;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	transition: 0.3s all;
+}
+.form input[type="submit"]:focus{
+	outline:none;
+
+}
+
+#sub:hover{
+	background-color: #9b792d;
+	cursor: pointer;
 }
