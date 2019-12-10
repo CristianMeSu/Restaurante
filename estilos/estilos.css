@@ -297,6 +297,8 @@ footer {
 /*----Espacios entre cuadros con texto---*/
 .footer1 {
     display: flex; justify-content: space-evenly;flex-wrap: wrap;text-align: center;}
+    .footer2 {
+    padding-bottom: 40px;}
 
  .h3{font-family: 'Yeseva One', cursive;}
 
