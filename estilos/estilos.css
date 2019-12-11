@@ -359,13 +359,14 @@ form > div{
 	flex-basis: 50%;
 }
 
-form input{
+form input:focus{
 	width: 180px;
 	height: 37px;
 	
-	border: 1px solid  black;
+	border: 1px solid #ffc74a;
 	outline: none;
 	padding: 5px;
+	
 }
 
 form input[type="submit"]{
@@ -377,6 +378,7 @@ form input[type="submit"]{
 	border: none;
 	outline: none;
 	transition: 0.3s all;
+	
 }
 .form input[type="submit"]:focus{
 	outline:none;
@@ -395,4 +397,7 @@ form input[type="submit"]{
 	font-size: 20px;
 	font-family: 'Yeseva One', cursive;
 	color: #ffc74a;
+}
+.formBookNowButton {
+    margin: 30px auto;
 }
