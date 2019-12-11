@@ -16,55 +16,38 @@ width: 100%
 justify-content: center; text-align: center;
 }
 
-	.inner-nav{	width: 100%;	margin: 0px 0px; }
-	.inner-nav li{display:inline-block;	list-style-type: none;}
-	.inner-nav li a:hover{	border-top: 4px solid #ccc}
-	
-	.inner-nav li a{
-		text-decoration: none;
-		font-size: 20px;
-		padding: 35px 25px;
-		display: block;
-		color: #fff;
-		border-top: 4px solid transparent;
-		font-family: 'Gentium Book Basic', serif;
-	}
-	.inner-nav li:nth-child(1n+8) a{ border-top: none; padding: 10px;	}
-	.inner-nav li:nth-child(1n+8) a:hover img{ opacity: 0.7;	}
-	.nav-logo img {margin: 10px}
-	.nav-logo{
-		width: 156px;
-		height: 92px;
-		display: block;
-		
-		margin-right: 170px;
-	}
-	
-
-
-
-		.inner-header{	width: 80%;	margin: 0 auto;	text-align: center; justify-content: center;}
-
-		.inner-header h1{font-size: 90px;color: #fff; font-family: 'Yeseva One', cursive;}
-
-		.inner-header img{margin-bottom: 50px;}
-
-		.inner-header a{
-			font-size: 18px;
-			margin: 0 10px;
-			width: 228px;
-			height: 58px;
-			display: inline-block;
+		.menuheader{	width: 100%;	margin: 0px 0px; }
+		.menuheader li{display:inline-block;	list-style-type: none;}
+		.menuheader li a:hover{	border-top: 4px solid #ccc}	
+		.menuheader li a{
+			text-decoration: none;
+			font-size: 20px;
+			padding: 35px 25px;
+			display: block;
 			color: #fff;
-			background-image: url(../imagenes/sprite.png);
-			line-height: 58px;
+			font-family: 'Gentium Book Basic', serif;
 		}
-
-		.inner-header a.black{background-position: bottom;}
-
-		.inner-header a.black:hover{background-position: top; text-decoration: none;}
-
-		.inner-header a.white:hover{background-position: bottom; text-decoration: none;}
+		.menuheader li:nth-child(1n+8) a{ border-top: none; padding: 10px;	}
+		.menuheader li:nth-child(1n+8) a:hover img{ opacity: 0.7;	}
+		.nav-logo img {margin: 10px}
+		.nav-logo{	width: 156px;	height: 92px;	display: block;	margin-right: 170px;}
+		
+					.headercontent{	width: 80%;	margin: 0 auto;	text-align: center; justify-content: center;}
+					.headercontent h1{font-size: 90px;color: #fff; font-family: 'Yeseva One', cursive;}
+					.headercontent img{margin-bottom: 50px;}
+					.headercontent a{
+						font-size: 18px;
+						margin: 0 10px;
+						width: 228px;
+						height: 58px;
+						display: inline-block;
+						color: #fff;
+						background-image: url(../imagenes/sprite.png);
+						line-height: 58px;
+					}
+					.headercontent a.black{background-position: bottom;}
+					.headercontent a.black:hover{background-position: top; text-decoration: none;}
+					.headercontent a.white:hover{background-position: bottom; text-decoration: none;}
 
 
 
