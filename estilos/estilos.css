@@ -113,7 +113,6 @@ width: 100%
 	color:#ffffff; text-align: center; padding-left: 10px;
 	justify-content: center;
 	font-size:36px; 
-
 	font-family: 'Yeseva One', cursive;
 	
 }
@@ -140,18 +139,17 @@ width: 100%
 #p2{
 	color:#ffffff; 
 	text-align:center;
-	
+
 }
 #p2 p{
-	padding-top: 0px;
-	padding-bottom: 0px;
-
+	margin-top: 0px;
+	margin-bottom: 0px;
 	font-size:16px; 
 	font-family: 'Lato', sans-serif;
 }
 #cuadronegro{
-	padding-top: 150px;
-	padding-right: 100px;
+    padding-top: 8%;
+    padding-right: 9%;
 	float: right;
 
 }
@@ -319,6 +317,8 @@ footer {
 
 .inner-reservation-right{
 	text-align: center;
+	justify-content: center;
+	width: 50%;
 }
 
 .inner-reservation-right h2{
