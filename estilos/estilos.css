@@ -32,7 +32,7 @@ justify-content: center; text-align: center;
 		.nav-logo img {margin: 10px}
 		.nav-logo{	width: 156px;	height: 92px;	display: block;	margin-right: 170px;}
 		
-					.headercontent{	width: 80%;	margin: 0 auto;	text-align: center; justify-content: center;}
+					.headercontent{	width: 80%;	margin: 0 auto;	text-align: center;}
 					.headercontent h1{font-size: 90px;color: #fff; font-family: 'Yeseva One', cursive;}
 					.headercontent img{margin-bottom: 50px;}
 					.headercontent a{
@@ -74,17 +74,14 @@ width: 100%
     padding-top: 80px
 }
 
-.alimentos{
-	margin-top: 20px;
-    padding-left: 20%;
-}
+
 
 .carne{
 	 padding-top: 40px;
 }
 
 
-/*.....Introduccion.........................................................*/
+/*.....Introduccion 1 y 2.........................................................*/
 
 .intro{
     background-image: url(../imagenes/fondointro.png);
@@ -116,7 +113,17 @@ width: 100%
 	font-family: 'Yeseva One', cursive;
 	
 }
+#p2{
+	color:#ffffff; 
+	text-align:center;
 
+}
+#p2 p{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size:16px; 
+	font-family: 'Lato', sans-serif;
+}
 #p8{
 	color:#ffffff; 
 	text-align:center;
@@ -136,17 +143,7 @@ width: 100%
 	font-family: 'Lato', sans-serif;
 	
 }
-#p2{
-	color:#ffffff; 
-	text-align:center;
 
-}
-#p2 p{
-	margin-top: 0px;
-	margin-bottom: 0px;
-	font-size:16px; 
-	font-family: 'Lato', sans-serif;
-}
 #cuadronegro{
     padding-top: 8%;
     padding-right: 9%;
@@ -157,8 +154,6 @@ width: 100%
 	padding-top: 150px;
 	padding-right: 29%;
 	float: right;
-
-
 }
 
 #circulo{
@@ -169,39 +164,6 @@ width: 100%
 
 
 /*.....Menu.................................................................*/
-.ingredients{
-	min-height: 800px;
-	background: url(../imagenes/sec2bg.jpg);
-	background-position: center;
-	background-size: cover;
-}
-
-.inner-ingredients{
-	padding: 100px;
-}
-.inner-ingredients-block{
-	width: 500px;;
-	height: 500px;
-	background: url(../imagenes/sec2textbg.png);
-	margin-left: 55%;
-	padding: 50px;
-	text-align: center;
-}
-
-.inner-ingredients-block h2{
-	font-size: 30px;
-	color: #fff;
-	margin-bottom: 30px;
-}
-
-.inner-ingredients-block p{
-	color: #fff;
-	font-size: 18px;
-	width: 80%;
-	margin: 0 auto 70px auto;
-
-}
-
 .menu{
 	min-height: 900px;
 	background: url("../imagenes/sec3bg.png");
@@ -248,18 +210,7 @@ width: 100%
 .menuGroup3{
 	padding-top: 94px;
 }
-.hola{
-	color: #ffc74a;
-	font-size: 25px;
-}
-.hl{
-	font-family: 'Yeseva One', cursive;
-}
-.h9{
-	font-family: 'Yeseva One', cursive;
-	font-size: 20px;
-	color: #ffc74a;
-}
+
 .leta{
 	font-family: 'Lato', sans-serif;
 }
@@ -271,25 +222,7 @@ width: 100%
 	font-size: 14px;
 	color: #ffc74a;
 }
-/*----Footer---*/
-footer {
-    background-color:#191919;
-    color: white;
-}
-/*----Espacios entre cuadros con texto---*/
-.footer1 {
-    display: flex; justify-content: space-evenly;flex-wrap: wrap;text-align: center;}
-    .footer2 {
-    padding-bottom: 40px;}
-
- .h3{font-family: 'Yeseva One', cursive;}
-
- .h3{display: block;font-size: 23px; margin-block-start: 25px; margin-block-end: 25px; }
-/*---- Espacios--*/
- p {display: block;margin-block-start: 16px;}
-
-
-
+/*.....Reseñas.................................................................*/
 #reservation{
 	
 	background: url("../imagenes/sec3bg.png");
@@ -373,15 +306,23 @@ form input[type="submit"]{
 	background-color: #9b792d;
 	cursor: pointer;
 }
-.hl{
-	color: #ffc74a;
-	font-family: 'Yeseva One', cursive;
-}
-.h9{
-	font-size: 20px;
-	font-family: 'Yeseva One', cursive;
-	color: #ffc74a;
-}
-.formBookNowButton {
+
+.NowButton {
     margin: 30px auto;
 }
+/*----Footer---*/
+footer {
+    background-color:#191919;
+    color: white;
+}
+/*----Espacios entre cuadros con texto---*/
+.footer1 {
+    display: flex; justify-content: space-evenly;flex-wrap: wrap;text-align: center;}
+    .footer2 {
+    padding-bottom: 40px;}
+
+ .h3{font-family: 'Yeseva One', cursive;}
+
+ .h3{display: block;font-size: 23px; margin-block-start: 25px; margin-block-end: 25px; }
+/*---- Espacios--*/
+ p {display: block;margin-block-start: 16px;}
