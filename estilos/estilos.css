@@ -187,12 +187,15 @@ width: 100%
 }
 
 .inner-menu > div h2{
-	color: #ffc74a;
+	font-family: 'Yeseva One', cursive;
+	color: #cc9900;
 	font-size: 40px;
 }
 
 .inner-menu  div span{
-	border-bottom: 1px solid #ffc74a;
+	color: #cc9900;
+	border-bottom: 1px solid #cc9900;
+	font-family: 'Lato', sans-serif;
 }
 
 .spec{
@@ -203,7 +206,7 @@ width: 100%
 }
 
 .inner-menu i{
-	color: #ffc74a;
+	color: #cc9900;
 	font-size: 20px;
 }
 
@@ -211,17 +214,14 @@ width: 100%
 	padding-top: 94px;
 }
 
-.leta{
-	font-family: 'Lato', sans-serif;
+
+
+.h9{
+	font-family: 'Yeseva One', cursive;
+	font-size: 20px;
+	color: #cc9900;
 }
-.leto{
-	text-align: left;
-	padding-left: 18px;
-	padding-top: 10px;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
-	color: #ffc74a;
-}
+
 /*.....Reseñas.................................................................*/
 #reservation{
 	
@@ -256,7 +256,7 @@ width: 100%
 
 .inner-reservation-right h2{
 	font-size: 40px;
-	color: #ffc74a;
+	color: #cc9900;
 }
 
 .inner-reservation-right p{
@@ -265,11 +265,22 @@ width: 100%
 	    margin-bottom: 20px;
 
 }
-
+.inner-reservation-right input{
+	width: 200px;
+	height: 40px;
+}
+.leto{
+	text-align: left;
+	padding-left: 18px;
+	padding-top: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #cc9900;
+}
 form{
 	flex-wrap: wrap;
 	display: flex;
-	width: 60%;
+	width: 70%;
 	margin: 0 auto;
 }
 form > div{
@@ -277,20 +288,20 @@ form > div{
 }
 
 form input:focus{
-	width: 180px;
-	height: 37px;
+	width: 210px;
+	height: 45px;
 	
-	border: 1px solid #ffc74a;
+	border: 1px solid #cc9900;
 	outline: none;
 	padding: 5px;
 	
 }
 
 form input[type="submit"]{
-	width:160px;
+	width:250px;
 	height: 50px;
 	color: #fff;
-	background-color: #ffc74a;
+	background-color: #cc9900;
 	border-radius: 5px;
 	border: none;
 	outline: none;
